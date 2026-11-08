@@ -1,0 +1,4 @@
+﻿fare_policy,n_reservations,n_Flown,n_Cancelled,n_No-Show,n_Unknown,Flown_pct,Cancelled_pct,No-Show_pct,Unknown_pct,cancel_rate_pct
+Flexible,3619,2524,1031,55,9,69.74,28.49,1.52,0.25,30.15
+Semi-Flexible,3667,2632,965,60,10,71.78,26.32,1.64,0.27,28.06
+Non-Refundable,2714,2094,577,39,4,77.16,21.26,1.44,0.15,22.73

@@ -1,0 +1,28 @@
+﻿metric,before,after,note
+Số dòng dữ liệu,10325,10000,"Sau B8, nhiều record cùng reservation_id được gộp thành một reservation."
+Số reservation_id duy nhất,10037,10000,Giá trị ID thô có thể chứa biến thể/lỗi; sau B1-B8 là ID đã chuẩn hóa.
+Số dòng lặp reservation_id sau lần xuất hiện đầu,288,0,Đếm các dòng có reservation_id đã xuất hiện trước đó.
+Số record được gộp ở B8,Chưa gộp,325,Đây là số record phụ được gộp vào reservation đại diện.
+Tỷ lệ thiếu - reservation_id,0 (0.00%),0 (0.00%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - airline,0 (0.00%),0 (0.00%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - is_cancelled,0 (0.00%),0 (0.00%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - booking_lead_days,0 (0.00%),22 (0.22%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - departure_date,25 (0.24%),35 (0.35%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - trip_weekend_days,12 (0.12%),20 (0.20%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - trip_weekdays,11 (0.11%),19 (0.19%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - adult_passengers,12 (0.12%),19 (0.19%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - child_passengers,40 (0.39%),45 (0.45%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - infant_passengers,0 (0.00%),5 (0.05%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - meal_option,25 (0.24%),24 (0.24%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - passenger_country,127 (1.23%),105 (1.05%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - market_segment,0 (0.00%),9 (0.09%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - sales_channel,0 (0.00%),0 (0.00%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - is_returning_customer,0 (0.00%),0 (0.00%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - booked_cabin_code,0 (0.00%),39 (0.39%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - assigned_cabin_code,0 (0.00%),40 (0.40%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - fare_policy,0 (0.00%),0 (0.00%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - traveler_type,0 (0.00%),0 (0.00%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - avg_ticket_fare,26 (0.25%),37 (0.37%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - special_service_requests,0 (0.00%),6 (0.06%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - booking_status,0 (0.00%),23 (0.23%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.
+Tỷ lệ thiếu - booking_status_date,26 (0.25%),8 (0.08%),Mỗi tỷ lệ dùng số dòng của chính giai đoạn đó làm mẫu số.

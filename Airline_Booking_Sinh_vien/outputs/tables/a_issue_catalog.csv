@@ -1,0 +1,21 @@
+﻿issue_id,field,issue,detection_rule,affected_rows,example_record_ids
+ISSUE_001,Nhiều cột,Ô rỗng hoặc chứa ký hiệu thiếu,"Ô trống hoặc thuộc MISSING_TOKENS, bỏ qua hai cột ID",301,R000068; R000118; R000173; R000180; R000193
+ISSUE_002,23 cột nghiệp vụ,Dòng trùng tuyệt đối,"duplicated trên 23 cột, keep=False; bỏ record_id",360,R000042; R000072; R000114; R000117; R000132
+ISSUE_003,reservation_id,Một reservation_id xuất hiện ở nhiều dòng,"reservation_id sau strip/upper bị lặp, keep=False",646,R000042; R000068; R000072; R000108; R000114
+ISSUE_004,airline,Nhãn có biến thể hoặc không thuộc danh sách chuẩn,Giá trị không nằm trong nhãn chuẩn của airline,175,R000002; R000040; R000067; R000095; R000186
+ISSUE_005,is_cancelled,Nhãn có biến thể hoặc không thuộc danh sách chuẩn,Giá trị không nằm trong nhãn chuẩn của is_cancelled,123,R000161; R000331; R000332; R000485; R000493
+ISSUE_006,is_returning_customer,Nhãn có biến thể hoặc không thuộc danh sách chuẩn,Giá trị không nằm trong nhãn chuẩn của is_returning_customer,43,R000096; R000437; R000716; R000996; R001005
+ISSUE_007,meal_option,Nhãn có biến thể hoặc không thuộc danh sách chuẩn,Giá trị không nằm trong nhãn chuẩn của meal_option,137,R000036; R000212; R000300; R000417; R000531
+ISSUE_008,market_segment,Nhãn có biến thể hoặc không thuộc danh sách chuẩn,Giá trị không nằm trong nhãn chuẩn của market_segment,153,R000052; R000143; R000236; R000250; R000326
+ISSUE_009,sales_channel,Nhãn có biến thể hoặc không thuộc danh sách chuẩn,Giá trị không nằm trong nhãn chuẩn của sales_channel,102,R000120; R000149; R000305; R000370; R000548
+ISSUE_010,fare_policy,Nhãn có biến thể hoặc không thuộc danh sách chuẩn,Giá trị không nằm trong nhãn chuẩn của fare_policy,95,R000136; R000587; R000606; R000748; R001014
+ISSUE_011,traveler_type,Nhãn có biến thể hoặc không thuộc danh sách chuẩn,Giá trị không nằm trong nhãn chuẩn của traveler_type,89,R000273; R000382; R000675; R001021; R001109
+ISSUE_012,booking_status,Nhãn có biến thể hoặc không thuộc danh sách chuẩn,Giá trị không nằm trong nhãn chuẩn của booking_status,118,R000248; R000250; R000468; R000493; R000526
+ISSUE_013,booked_cabin_code,Nhãn có biến thể hoặc không thuộc danh sách chuẩn,Giá trị không nằm trong nhãn chuẩn của booked_cabin_code,112,R000114; R000233; R000245; R000307; R000492
+ISSUE_014,assigned_cabin_code,Nhãn có biến thể hoặc không thuộc danh sách chuẩn,Giá trị không nằm trong nhãn chuẩn của assigned_cabin_code,113,R000489; R000533; R000598; R000635; R000783
+ISSUE_015,departure_date,Có nhiều cách ghi ngày khởi hành,Giá trị có dữ liệu nhưng không theo dạng ISO YYYY-MM-DD,1935,R000002; R000003; R000005; R000011; R000017
+ISSUE_016,departure_date,Ngày sai định dạng hoặc không tồn tại,Không đọc được bằng bốn format ngày quy định,7,R000134; R004013; R004721; R005130; R006643
+ISSUE_017,booking_status_date,Ngày không đúng ISO hoặc không tồn tại,Không đọc được theo format '%Y-%m-%d',1,R004167
+ISSUE_018,"booking_lead_days, trip_weekend_days, trip_weekdays, adult_passengers, child_passengers, infant_passengers, special_service_requests","Số có hậu tố đơn vị, phần thập phân hoặc dấu âm","Tìm chữ, dấu chấm hoặc dấu âm trong các cột đếm",310,R000018; R000043; R000061; R000076; R000100
+ISSUE_019,avg_ticket_fare,"Giá vé có ký hiệu tiền tệ, dấu phẩy hoặc dấu âm","Tìm USD, $, dấu phẩy thập phân hoặc dấu âm",140,R000095; R000149; R000187; R000262; R000281
+ISSUE_020,passenger_country,"Tên quốc gia, chữ thường hoặc mã sai định dạng","Sau strip, không phải mã 2–3 chữ in hoa",168,R000138; R000154; R000218; R000344; R000348
